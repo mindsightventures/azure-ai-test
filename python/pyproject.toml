@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "azure-ai-test"
+version = "0.1.0"
+description = "Azure AI Foundry OpenAI access test"
+authors = []
+
+[tool.poetry.dependencies]
+python = "^3.11"
+openai = "^1.82.0"
+python-dotenv = "^1.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
